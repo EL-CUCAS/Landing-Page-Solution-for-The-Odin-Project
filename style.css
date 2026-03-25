@@ -1,0 +1,100 @@
+
+
+/* global font */
+
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* reset default margins */
+
+body{
+    margin: 0;
+}
+
+/* layout for header and hero sections */
+
+.hero , .header{
+    background-color: #1f2937;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    
+
+}
+
+/* header layout */
+
+.header {
+    
+    justify-content: space-between;
+    align-items: center; 
+}
+
+/* right side of header */
+
+.header_right{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* hero section layout */
+
+.hero{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    
+    
+}
+
+/* hero title styling */
+
+.hero h1{
+    text-shadow:5px 5px 1px  #161f2b ;
+}
+
+/* hero text  */
+
+.hero-content{
+    max-width: 600px;
+    flex-direction: column;
+    
+}
+
+/* hero image styling */
+
+.hero img{
+    height: auto;
+    width: 600px; 
+    margin-right: 50px;
+    border-radius: 18px;
+    box-shadow: 5px 5px 1px  #161f2b ;
+
+}
+
+/* button styles */
+
+button{
+    background-color: #3882f6;
+    border: none;
+    border-radius: 18px ;
+    color:white;
+    padding: 10px;
+    font-size: 25px;
+    width: 200px;
+    box-shadow: 5px 5px 1px  #161f2b 
+}
+
+/* link styles */
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
