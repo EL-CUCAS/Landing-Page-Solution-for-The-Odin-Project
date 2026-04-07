@@ -78,6 +78,37 @@ body{
 
 }
 
+/* memes section layout */
+
+.memes{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+
+}
+
+/* memes image styling */
+
+.memes img{
+    width: 200px ;
+    height: auto;
+    border-radius: 10px;
+    border: #3882f6 solid 5px;
+}
+
+/* hero section layout */
+
+.quote{
+    background-color: #e5e7eb;
+    padding: 30px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 /* button styles */
 
 button{
@@ -98,3 +129,42 @@ a{
     color: #ffffff;
 }
 
+/* h2 styles */
+
+h2{
+    text-align: center;
+    color: #161f2b;
+    font-size: 40px;
+}
+
+
+.cta{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    background-color: #3882f6;
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 70px;
+    padding: 40px;
+}
+
+.cta button{
+    background-color: #3882f6;
+    border: #ffffff solid 2px;
+    color:white;
+    padding: 0px;
+    font-size: 15px;
+    width: 100px;
+    box-shadow:none
+}
+ 
+
+.footer{
+    background-color: #1f2937;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
